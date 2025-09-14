@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      margin: 0;
+      background: #F2E2BD;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .container {
+      position: relative;
+      width: 400px;
+      height: 300px;
+      background: #7E7666;
+    }
+    .cut1, .cut2, .cut3, .cut4 {
+      position: absolute;
+      background: #F2E2BD;
+    }
+    .cut5 {
+      background: #7C7565;
+      position: absolute;
+    }
+    .cut1 
+    {   
+        top: 0; 
+        right: 0px;
+        width: 200px; 
+        height: 30px; }
+    .cut2 { 
+        top: 30px; 
+        right: 70; 
+        width: 140px; 
+        height: 240px; }
+    .cut3 { 
+        bottom: 0; 
+        left: 0; 
+        width: 200px; 
+        height: 30px; }
+    .cut4 { 
+        top: 30px; 
+        left: 70px; 
+        width: 120px; 
+        height: 240px; }
+    .cut5 {
+      top: 105px; 
+      left: 155px; 
+      width: 90px; 
+      height: 90px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="cut1"></div>
+    <div class="cut2"></div>
+    <div class="cut3"></div>
+    <div class="cut4"></div>
+    <div class="cut5"></div>
+  </div>
+</body>
+</html>

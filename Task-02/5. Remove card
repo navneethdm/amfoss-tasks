@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() 
+{
+    int T,N,M,Ai,i;
+    scanf("%d",&T);
+    while (T--) 
+    {
+        M=0;
+        int freq[11]={0};
+        scanf("%d",&N);
+        for (i=0;i<N;i++) 
+        {
+            scanf("%d",&Ai);
+            freq[Ai]++;             
+            if (freq[Ai]>M)    
+                M=freq[Ai];
+        }
+
+        printf("%d\n",N-M);
+    }  
+    return 0;
+}
